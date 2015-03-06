@@ -1,0 +1,20 @@
+<html ng-app="classMarker">
+<head>
+  <title>testing</title>
+  <script src="node_modules/angular/angular.js"></script>
+  <script src="classGrammar.js"></script>
+  <link rel="stylesheet" href="classMarker.css" />
+</head>
+<body ng-controller="MyController">
+  <div>
+    <class-marker></class-marker>
+  </div>
+<script>
+  var myModule = angular.module('classMarker', []);
+  myModule.controller('MyController', function($scope) {
+});
+</script>
+
+<script src="classMarker.js"></script>
+</body>
+</html>
